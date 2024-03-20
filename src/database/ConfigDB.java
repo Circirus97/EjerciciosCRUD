@@ -26,13 +26,13 @@ public class ConfigDB {
 
             //Establecemos la conexion
             objConnection = (Connection) DriverManager.getConnection(url, user, password);
-            System.out.println("Conexión establecida");
+            System.out.println("Established connection");
 
         }catch (ClassNotFoundException e){
-            System.out.println("Error >> Driver no instalado"+e.getMessage());
+            System.out.println("Error >> Driver not installed \n"+e.getMessage());
         }catch (SQLException e){
-            System.out.println("Error >> No se pudo establecer una conexión con la DB"+e.getMessage());
-        };
+            System.out.println("Error >> A connection to the DB could not be established\n"+e.getMessage());
+        }
 
         return objConnection;
     }
@@ -48,7 +48,7 @@ public class ConfigDB {
             //
         }catch (SQLException e){
             System.out.println("Error >> " + e.getMessage());
-        };
+        }
     }
 
 

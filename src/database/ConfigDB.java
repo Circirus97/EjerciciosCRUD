@@ -21,8 +21,8 @@ public class ConfigDB {
             //Creamos variables con nuestras credenciales de la base de datos
             String url = "jdbc:mysql://localhost:3306/libreria";
             String user = "root";
-            //String password = "Rlwl2023.";
-            String password = "Root";
+            String password = "Rlwl2023.";
+            //String password = "Root";
 
             //Establecemos la conexion
             objConnection = (Connection) DriverManager.getConnection(url, user, password);

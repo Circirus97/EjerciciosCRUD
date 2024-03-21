@@ -14,6 +14,8 @@ public class Author {
         this.nationality = nationality;
     }
 
+    public Author() {}
+
     public int getId() {
         return id;
     }
@@ -40,9 +42,9 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Autores" +
-                "id=" + id +
-                ", nombre='" + name + '\'' +
-                ", nacionalidad='" + nationality + '\'';
+        return "Autores\n" +
+                "id: " + id +
+                ", nombre: " + name  +
+                ", nacionalidad: " + nationality;
     }
 }

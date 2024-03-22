@@ -19,7 +19,7 @@ public interface BookCRUD {
 
     List<Book> findByNameBook(String name);
 
-    List<Author> findByAuthor(String name);
+    List<Author> findByNameAuthor(String name);
 
 
 }

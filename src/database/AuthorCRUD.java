@@ -18,5 +18,4 @@ public interface AuthorCRUD {
 
     List<Author> findByNameAuthor(String name);
 
-
 }

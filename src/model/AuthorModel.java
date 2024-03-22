@@ -16,14 +16,18 @@ public class AuthorModel implements AuthorCRUD {
     @Override
     public Object insertAuthor(Object object) {
 
+        //1. Iniciar conexión
         Connection objConnection = ConfigDB.openConnection();
 
+        //1. Castear el objeto
         Author objAuthor = (Author) object;
 
         try{
 
+            //3. Crear el SQL
             String sql = "INSERT INTO authors(name, nationality) VALUE(?, ?);";
 
+            //4. Preparar el statement
             PreparedStatement objPrepareStatement = (PreparedStatement) objConnection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
 
             objPrepareStatement.setString(1, objAuthor.getName());

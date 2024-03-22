@@ -43,19 +43,19 @@ public class Main {
                                 break;
 
                             case "2":
-                                //objAuthorController.getAll();
+
                                 break;
 
                             case "3":
-                                //objAuthorController.updateCoder();
+
                                 break;
 
                             case "4":
-                                //objAuthorController.delete();
+
                                 break;
 
                             case "5":
-                                //objAuthorController.find();
+
                                 break;
                         }
 
@@ -76,7 +76,7 @@ public class Main {
 
                         switch (option3){
                             case "1":
-                                //objAuthorController.getAll();
+
                                 break;
 
                             case "2":
@@ -84,15 +84,15 @@ public class Main {
                                 break;
 
                             case "3":
-                                //objAuthorController.updateCoder();
+
                                 break;
 
                             case "4":
-                                //objAuthorController.delete();
+
                                 break;
 
                             case "5":
-                                //objAuthorController.find();
+
                                 break;
                         }
 

@@ -1,12 +1,0 @@
-
-U
-java:S1118":Add a private constructor to hide the implicit public one.(èµ¢ˆùÿÿÿÿ
-X	java:S125"<This block of commented-out lines of code should be removed.(ëó‹ð8º´ƒÇå1
-H
-java:S1905"-Remove this unnecessary cast to "Connection".(ª¤Âåúÿÿÿÿ
-Q
-java:S6437"6Revoke and change this password, as it is compromised.(ª¤Âåúÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(È”žñùÿÿÿÿ
-?	java:S106 "+Replace this use of System.out by a logger.(ÞÎÓm
-@	java:S106""+Replace this use of System.out by a logger.(ƒ‘Õ®
-@	java:S1062"+Replace this use of System.out by a logger.(Šƒì
